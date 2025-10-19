@@ -79,7 +79,7 @@ También se agregó una función que permite cambiar la velocidad del coche depe
 
 
  codigo
-#include "BluetoothSerial.h"
+"#include "BluetoothSerial.h"
  
 BluetoothSerial SerialBT;
 
