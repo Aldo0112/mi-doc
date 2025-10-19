@@ -1,7 +1,7 @@
 ## 1) Resumen
 
 - *Nombre del proyecto:* Carritos con motores DC  
-- *Equipo / Autor(es):* Emily Mendez, Aldo Fernandez, Alexandra Groot, Valeria Piña, Arturo Martínez, Sebastian Rodríguez, Erik Zepeda  
+- *Equipo / Autor(es):* Emily Mendez, Aldo Alvarez, Alexandra Groot, Valeria Piña, Arturo Martínez, Sebastian Rodríguez, Erik Zepeda  
 - *Curso / Asignatura:* Introducción a la Mecatrónica  
 - *Fecha:* 15/10/2025  
 - *Descripción breve:* Desarrollo de un carrito a control remoto con bases de motores DC, puente H, ESP32, Control Bluetooth, etc.
@@ -264,7 +264,7 @@ void setSpeed(int val) {
 
 ### Aplicación
 
-Para controlar el coche, se usó una aplicación desarrollada por un compañero. Esta app permite asignar letras a cada botón, que luego se envían por Bluetooth a la ESP32.
+Para controlar el coche, se usó una aplicación para telefono inteligente. Esta app permite asignar letras a cada botón, que luego se envían por Bluetooth a la ESP32.
 
 Se configuraron así:
 
@@ -280,6 +280,7 @@ Se configuraron así:
 
 Cada vez que se presiona un botón, la aplicación manda la letra y la ESP32 ejecuta la acción correspondiente.
 
+Vista del control remoto dentro de la aplicación: https://iberopuebla-my.sharepoint.com/:i:/g/personal/204916_iberopuebla_mx/ESdaBNz_tKBAgdfPCeeiZMQBjAO6phPm8H3H8P08g9R8tg?e=eorrK5
 
 ## 6) Resultados y Evidencias
 
