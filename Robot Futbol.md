@@ -310,5 +310,3 @@ Sin embargo, se detectaron algunas mejoras posibles:
 
 En términos generales, el proyecto permitió poner en práctica los conocimientos adquiridos en la materia de Introducción a la Mecatrónica. Además, contribuyó a comprender de manera más clara la integración entre la electrónica, la mecánica y la programación. También evidenció que, para lograr un buen resultado, es necesario realizar numerosas pruebas y dedicar el tiempo suficiente para obtener un proyecto funcional y con el menor número posible de fallas.
 "
-## Estructura Minima de proyectotomáticamente
-```
