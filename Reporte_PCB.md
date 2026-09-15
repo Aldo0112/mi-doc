@@ -19,7 +19,7 @@
 ## 📋 Tabla de Contenidos
 1. [Introducción y Objetivos](#1-introducción-y-objetivos)
 2. [Instalación de Plugins (KiCad FabLib)](#2-instalación-de-plugins-kicad-fablib)
-3. [Diseño del Esquema Eléctrico (Schematic Editor)](#3-diseño-del-esquema-eléctrico-schematic-editor)
+3. [Diseño del Esquema Eléctrico](#3-diseño-del-esquema-eléctrico-schematic-editor)
    - [Selección de Componentes](#31-selección-de-componentes)
    - [Organización y Conexiones](#32-organización-y-conexiones)
 4. [Diseño de la Placa de Circuito Impreso (PCB Layout)](#4-diseño-de-la-placa-de-circuito-impreso-pcb-layout)
@@ -33,11 +33,11 @@
 
 ## 1. Introducción y Objetivos
 
-Este proyecto describe el proceso completo de diseño y desarrollo de una placa de circuito impreso (PCB)  utilizando la herramienta de software libre **KiCad 10**. 
+Este proyecto describe el proceso completo de diseño y desarrollo de una placa de circuito impreso (PCB) utilizando la herramienta de software libre **KiCad 10**. 
 
 ### Objetivos:
 * Diseñar un circuito funcional con 4 pulsadores táctiles (`Switch_Tactile_Omron`), 4 LEDs indicadores (Azul y Rojo) con sus respectivas resistencias de limitación y pull-down, y conectores de alimentación/salida.
-* Definir una geometría de borde personalizada no rectangular (forma simétrica en "X" / trébol) utilizando la capa de corte.
+* Definir una geometría de borde personalizada no rectangular utilizando la capa de corte.
 * Aplicar normas de diseño Gerber y criterios de enrutado (ancho de pistas de 0.4 mm y ancho de línea de borde de 2.0 mm).
 * Exportar la documentación de fabricación mediante el plugin **KiCad FabLib**.
 
