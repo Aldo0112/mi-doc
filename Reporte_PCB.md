@@ -110,7 +110,7 @@ En el panel lateral de capas (*Darstellung / Lagen*) se utilizan las siguientes 
 | :--- | :--- | :--- |
 | **`F.Cu`** | *Front Copper* (Cobre Superior) | Aloja las pistas principales de señal y el plano de masa superior (color rojo). |
 | **`Edge.Cuts`** | *Board Outline* (Corte del Borde) | Delimita el perímetro exacto que la fresadora o láser recortará para la PCB final (ancho de $2.0\,\text{mm}$). |
-| **`User.1`** | *Component Courtyard* | Define los límites físicos de seguridad alrededor de cada componente para evitar colisiones mecánicas. |
+| **`User.3`** | *Component Courtyard* | Define los límites físicos de seguridad alrededor de cada componente para evitar colisiones mecánicas. |
 
 ---
 
