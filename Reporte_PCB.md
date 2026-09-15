@@ -109,11 +109,8 @@ En el panel lateral de capas (*Darstellung / Lagen*) se utilizan las siguientes 
 | Capa | Nombre Completo | Función en la Placa |
 | :--- | :--- | :--- |
 | **`F.Cu`** | *Front Copper* (Cobre Superior) | Aloja las pistas principales de señal y el plano de masa superior (color rojo). |
-| **`B.Cu`** | *Bottom Copper* (Cobre Inferior) | Aloja pistas secundarias o plano de tierra posterior (color azul). |
-| **`F.Mask` / `B.Mask`** | *Solder Mask* (Máscara Anti-soldante) | Capa protectora que evita que la soldadura adhiera en zonas indeseadas. |
-| **`F.Silkscreen`** | *Silk Top* (Serigrafía Superior) | Contiene la serigrafía impresos con los nombres de componentes (`R1`, `SW1`, `Azul`, `Rojo`, `V+`, `GND`). |
 | **`Edge.Cuts`** | *Board Outline* (Corte del Borde) | Delimita el perímetro exacto que la fresadora o láser recortará para la PCB final (ancho de $2.0\,\text{mm}$). |
-| **`F.Courtyard`** | *Component Courtyard* | Define los límites físicos de seguridad alrededor de cada componente para evitar colisiones mecánicas. |
+| **`User.1`** | *Component Courtyard* | Define los límites físicos de seguridad alrededor de cada componente para evitar colisiones mecánicas. |
 
 ---
 
