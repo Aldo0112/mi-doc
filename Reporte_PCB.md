@@ -9,7 +9,7 @@
 
 ## 👥 Participantes del Equipo
 
-| Nombre Completo | Matrícula / Código |
+| Nombre Completo | Matrícula |
 | :--- | :---: |
 | **Aldo Ibrahim Alvarez Fernández** | 204916 |
 | **Rodrigo Pacheco Valdez** | 195234 |
