@@ -2,8 +2,7 @@
 
 **Universidad:** Universidad Iberoamericana Puebla  
 **Carrera:** Ingeniería mecatrónica  
-**Asignatura:** Producción electrónica  
-**Periodo:** 3er semestre  
+**Asignatura:** Producción electrónica   
 
 ---
 
