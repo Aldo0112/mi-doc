@@ -1,4 +1,4 @@
-# 🛠️ Reporte de Proyecto: Diseño y Ruteo de PCB en KiCad
+# Reporte de Proyecto: Diseño y Ruteo de PCB en KiCad
 
 **Universidad:** Universidad Iberoamericana Puebla  
 **Carrera:** Ingeniería mecatrónica  
@@ -6,7 +6,7 @@
 
 ---
 
-## 👥 Participantes del Equipo
+## Participantes del Equipo
 
 | Nombre Completo | Matrícula |
 | :--- | :---: |
@@ -32,10 +32,12 @@
 
 ## 1. Introducción y Objetivos
 
-Este proyecto describe el proceso completo de diseño y desarrollo de una placa de circuito impreso (PCB) utilizando la herramienta de software libre **KiCad 10**. 
+Este proyecto describe el proceso que se llevo a cabo en la materia de Producción Electrónica para diseñar, cortar y procesar una placa de cobre a una placa de circuito impreso (PCB) utilizando la herramienta de software libre **KiCad 10**. 
 
 ### Objetivos:
-* Diseñar un circuito funcional con 4 pulsadores táctiles (`Switch_Tactile_Omron`), 4 LEDs indicadores (Azul y Rojo) con sus respectivas resistencias de limitación y pull-down, y conectores de alimentación/salida.
+* Desarrollar las habilidades y conocimientos básicos en la plataforma KiCad para la elaboración de PCB desde cero.
+* Aplicar dichos conocimientos en proyectos de esta y otras materias a futuro como sustituto de la placa de pruebas (protoboard) para routing y conexiones de circuitos. 
+* Diseñar un circuito funcional con 4 pulsadores táctiles (`Switch_Tactile_Omron`), 4 LEDs indicadores (Azul y Rojo) con sus respectivas resistencias, y conectores de alimentación/salida.
 * Definir una geometría de borde personalizada no rectangular utilizando la capa de corte.
 * Aplicar normas de diseño Gerber y criterios de enrutado (ancho de pistas de 0.4 mm y ancho de línea de borde de 2.0 mm).
 * Exportar la documentación de fabricación mediante el plugin **KiCad FabLib**.
