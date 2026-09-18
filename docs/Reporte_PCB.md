@@ -97,15 +97,14 @@ Una vez transferida la lista de redes (*Netlist*) al `Leiterplatteneditor` (Edit
 ### 4.1 Definición del Contorno (`Edge.Cuts` a 2.0 mm)
 * Se diseñó un contorno geométrico personalizado de 4 lóbulos simétricos en forma de "X".
 * **Capa asignada:** `Edge.Cuts`.
-* **Ancho de línea (*Linienbreite*):** $78.74016\,\text{mils} \approx \mathbf{2.0\,\text{mm}}$, garantizando la visibilidad adecuada para el fresado de la placa en el proceso de ruteado CNC.
+* **Ancho de línea:** $78.74016\,\text{mils} \approx \mathbf{2.0\,\text{mm}}$, garantizando la visibilidad adecuada para el fresado de la placa en el proceso de ruteado CNC.
 
 ### 4.2 Enrutado y Ancho de Pistas (0.4 mm)
 * **Ancho de pista por defecto / señales:** Se configuró un ancho de pista de $0.4\,\text{mm}$ ($\approx 15.75\,\text{mils}$) en la clase de red principal (*Netclass*), adecuado para el manejo de señales de control e iluminación LED sin caídas térmicas ni de tensión apreciables.
-* **Plano de Masa (Ground Copper Fill):** Se cubrió la capa superior (`F.Cu`) con una zona de cobre conectada a la red `GND`, dejando aislamientos térmicos en los *pads* de componentes pasantes (*Through-Hole*).
 
 ### 4.3 Explicación de las Capas del Proyecto
 
-En el panel lateral de capas (*Darstellung / Lagen*) se utilizan las siguientes capas fundamentales:
+En el panel lateral de capas se utilizan las siguientes capas fundamentales:
 
 | Capa | Nombre Completo | Función en la Placa |
 | :--- | :--- | :--- |
@@ -119,7 +118,7 @@ En el panel lateral de capas (*Darstellung / Lagen*) se utilizan las siguientes 
 
 Utilizando el plugin **KiCad FabLib** instalado previamente:
 
-1. Se ejecutó la verificación de reglas de diseño (**DRC - Design Rules Check**) para garantizar cero cortocircuitos ni pistas incompletas (*0 Ungeroutet*).
+1. Se ejecutó la verificación de reglas de diseño (**DRC - Design Rules Check**) para garantizar cero cortocircuitos ni pistas incompletas.
 2. Mediante el icono de **FabLib**, se generó la carpeta de manufactura con:
    * **Archivos Gerber (`.gbr`):** `F_Cu.gbr`, `Edge_Cuts.gbr`, `User_3.gbr`.
 
