@@ -121,9 +121,7 @@ Utilizando el plugin **KiCad FabLib** instalado previamente:
 
 1. Se ejecutó la verificación de reglas de diseño (**DRC - Design Rules Check**) para garantizar cero cortocircuitos ni pistas incompletas (*0 Ungeroutet*).
 2. Mediante el icono de **FabLib**, se generó la carpeta de manufactura con:
-   * **Archivos Gerber (`.gbr`):** `F_Cu.gbr`, `B_Cu.gbr`, `F_Silkscreen.gbr`, `F_Mask.gbr`, `Edge_Cuts.gbr`.
-   * **Archivos de Taladrado (`.drl`):** Para brocas de perforación de los *pads* de la clema `J1`, `J2` y conectores.
-   * **Lista de Materiales (BOM):** Exportada en formato `.csv` para compra de componentes.
+   * **Archivos Gerber (`.gbr`):** `F_Cu.gbr`, `Edge_Cuts.gbr`, `User_3.gbr`.
 
 ---
 
