@@ -48,7 +48,7 @@ Este proyecto describe el proceso que se llevo a cabo en la materia de Producci�
 
 Para automatizar la generación de archivos Gerber, planos de ensamble y listas de materiales (BOM) estandarizadas, se instaló el complemento **KiCad FabLib** (o gestor de fabricación).
 
-![Plugin](docs/recursos/imgs/Screenshot&2026-09-15&163416.png)
+![Plugin](recursos/imgs/Screenshot&2026-09-15&163416.png)
 
 
 
@@ -65,7 +65,7 @@ Para automatizar la generación de archivos Gerber, planos de ensamble y listas 
 
 En el módulo `Schaltplaneditor` (Editor de Esquemas), se construyó la lógica eléctrica del proyecto `Hola_mundo.kicad_sch`.
 
-![Esquema eléctrico](docs/recursos/imgs/abc123bc-67e6-406e-80ac-654514811ea0.png)
+![Esquema eléctrico](recursos/imgs/abc123bc-67e6-406e-80ac-654514811ea0.png)
 
 ### 3.1 Selección de Componentes
 Se seleccionaron e incorporaron los siguientes símbolos y footprints:
@@ -91,7 +91,7 @@ El diseño se estructuró mediante bloques funcionales:
 
 Una vez transferida la lista de redes (*Netlist*) al `Leiterplatteneditor` (Editor de PCB), se procedió al posicionamiento de componentes y ruteo de pistas.
 
-![Layout de la PCB](docs/recursos/imgs/b6840445-175e-4ecd-a5c7-ccf16dd29f4b.jpeg)  
+![Layout de la PCB](recursos/imgs/b6840445-175e-4ecd-a5c7-ccf16dd29f4b.jpeg)  
 *Figura 2: Vista del trazado de la PCB con plano de masa y contorno en X.*
 
 ### 4.1 Definición del Contorno (`Edge.Cuts` a 2.0 mm)
