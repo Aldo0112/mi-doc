@@ -48,7 +48,7 @@ Este proyecto describe el proceso que se llevo a cabo en la materia de Producci�
 
 Para automatizar la generación de archivos Gerber, planos de ensamble y listas de materiales (BOM) estandarizadas, se instaló el complemento **KiCad FabLib** (o gestor de fabricación).
 
-![Plugin](docs/recursos/imgs/Screenshot2026-09-1.png)
+![Plugin](recursos/imgs/Screenshot2026-09-1.png)
 
 
 
