@@ -46,7 +46,7 @@ Este proyecto describe el proceso que se llevo a cabo en la materia de Producci�
 
 ## 2. Instalación de Plugins (KiCad FabLib)
 
-Para automatizar la generación de archivos Gerber, planos de ensamble y listas de materiales (BOM) estandarizadas, se instaló el complemento **KiCad FabLib** (o gestor de fabricación).
+Se agregó el complemento KiCad FabLib para disponer de una biblioteca estandarizada de componentes, símbolos y footprints utilizados comúnmente en entornos Fab Lab, facilitando el diseño y la fabricación de PCB.
 
 ![Plugin](recursos/imgs/Screenshot2026-09-1.png)
 
@@ -57,7 +57,7 @@ Para automatizar la generación de archivos Gerber, planos de ensamble y listas 
 2. Ingresar al **Gestor de Complementos, Plataformas y Bibliotecas** (*Plugin and Content Manager / PCM*).
 3. Buscar `KiCad FabLib` o agregar el repositorio correspondiente.
 4. Hacer clic en **Instalar** y presionar **Aplicar Cambios**.
-5. Reiniciar el editor de PCB para verificar que el botón o menú del plugin aparezca en la barra de herramientas principal.
+5. Reiniciar el editor de PCB.
 
 ---
 
@@ -89,7 +89,7 @@ El diseño se estructuró mediante bloques funcionales:
 
 ## 4. Diseño de la Placa de Circuito Impreso (PCB Layout)
 
-Una vez transferida la lista de redes (*Netlist*) al `Leiterplatteneditor` (Editor de PCB), se procedió al posicionamiento de componentes y ruteo de pistas.
+Una vez transferida la lista de redes al editor de PCB, se procedió al posicionamiento de componentes y ruteo de pistas.
 
 ![Layout de la PCB](recursos/imgs/b6840445-175e-4ecd-a5c7-ccf16dd29f4b.jpeg)  
 *Figura 2: Vista del trazado de la PCB con plano de masa y contorno en X.*
@@ -100,7 +100,7 @@ Una vez transferida la lista de redes (*Netlist*) al `Leiterplatteneditor` (Edit
 * **Ancho de línea:** $78.74016\,\text{mils} \approx \mathbf{2.0\,\text{mm}}$, garantizando la visibilidad adecuada para el fresado de la placa en el proceso de ruteado CNC.
 
 ### 4.2 Enrutado y Ancho de Pistas (0.4 mm)
-* **Ancho de pista por defecto / señales:** Se configuró un ancho de pista de $0.4\,\text{mm}$ ($\approx 15.75\,\text{mils}$) en la clase de red principal (*Netclass*), adecuado para el manejo de señales de control e iluminación LED sin caídas térmicas ni de tensión apreciables.
+* **Ancho de pista por defecto / señales:** Se configuró un ancho de pista de $0.4\,\text{mm}$ ($\approx 15.75\,\text{mils}$) en la clase de red principal, adecuado para el manejo de señales de control e iluminación LED sin caídas térmicas ni de tensión apreciables.
 
 ### 4.3 Explicación de las Capas del Proyecto
 
@@ -110,13 +110,11 @@ En el panel lateral de capas se utilizan las siguientes capas fundamentales:
 | :--- | :--- | :--- |
 | **`F.Cu`** | *Front Copper* (Cobre Superior) | Aloja las pistas principales de señal y el plano de masa superior (color rojo). |
 | **`Edge.Cuts`** | *Board Outline* (Corte del Borde) | Delimita el perímetro exacto que la fresadora o láser recortará para la PCB final (ancho de $2.0\,\text{mm}$). |
-| **`User.3`** | *Cuts* | Establece los cortes que se quieren realizar en la PCB. |
+| **`User.3`** | *Cuts* (Cortes) | Establece los cortes que se quieren realizar en la PCB. |
 
 ---
 
 ## 5. Exportación de Datos para Fabricación
-
-Utilizando el plugin **KiCad FabLib** instalado previamente:
 
 1. Se ejecutó la verificación de reglas de diseño (**DRC - Design Rules Check**) para garantizar cero cortocircuitos ni pistas incompletas.
 2. Mediante el icono de **FabLib**, se generó la carpeta de manufactura con:
@@ -128,4 +126,4 @@ Utilizando el plugin **KiCad FabLib** instalado previamente:
 
 * Se logró diseñar exitosamente una PCB totalmente funcional respetando las reglas de diseño para la manipulación manual de prototipos (pistas de 0.4 mm).
 * La implementación del contorno en la capa `Edge.Cuts` con grosor de 2.0 mm permitió definir un chasis estético y adaptado al factor de forma deseado.
-* El uso de **KiCad FabLib** agilizó la preparación del paquete de fabricación final sin errores de capas faltantes.
+* La integración de FabLib en KiCad simplificó la creación de la PCB al proporcionar componentes y huellas estandarizadas, permitiendo un diseño más rápido, preciso y adecuado para su posterior fabricación.
