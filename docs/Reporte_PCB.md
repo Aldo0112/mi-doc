@@ -63,7 +63,7 @@ Para automatizar la generación de archivos Gerber, planos de ensamble y listas 
 
 ## 3. Diseño del Esquema Eléctrico (Schematic Editor)
 
-En el módulo `Schaltplaneditor` (Editor de Esquemas), se construyó la lógica eléctrica del proyecto `Hola_mundo.kicad_sch`.
+En el módulo Editor de Esquemas, se construyó la lógica eléctrica del proyecto.
 
 ![Esquema eléctrico](recursos/imgs/abc123bc-67e6-406e-80ac-654514811ea0.png)
 
